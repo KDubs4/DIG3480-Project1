@@ -833,12 +833,12 @@ PrefabInstance:
     - target: {fileID: 3576288450122217075, guid: e58a8494f35e17f45ba5bbffdfb92517,
         type: 3}
       propertyPath: m_Height
-      value: 2.0614853
+      value: 7.0802603
       objectReference: {fileID: 0}
     - target: {fileID: 3576288450122217075, guid: e58a8494f35e17f45ba5bbffdfb92517,
         type: 3}
       propertyPath: m_Center.y
-      value: 1.0307426
+      value: 3.5401301
       objectReference: {fileID: 0}
     - target: {fileID: 3576288450122217075, guid: e58a8494f35e17f45ba5bbffdfb92517,
         type: 3}
@@ -2016,9 +2016,9 @@ RectTransform:
   m_Father: {fileID: 685860736}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -317, y: -172}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 137, y: 40}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1089046169
@@ -3077,9 +3077,9 @@ RectTransform:
   m_Father: {fileID: 685860736}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -317, y: 159.5}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 137, y: -52.5}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1977481680
@@ -3447,14 +3447,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2071423642}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.327, y: 2.006012, z: 9.037}
-  m_LocalScale: {x: 0.01, y: 0.15, z: 2.38}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.9345, y: 0.96, z: 7.711}
+  m_LocalScale: {x: 0.31, y: 0.21705002, z: 2.4890041}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 21
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &2071423648
 MonoBehaviour:
   m_ObjectHideFlags: 0

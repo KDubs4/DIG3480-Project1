@@ -23,7 +23,11 @@ public class Tripwire : MonoBehaviour
 
     private void OnTriggerEnter(Collider Tripwire)
     {
-        score++;
-        scoreText.text = "SCORE: " + score;
+        if (Tripwire.gameObject.tag == "Tripwire")
+        {
+            score++;
+            scoreText.text = "SCORE: " + score;
+            Debug.Log("trip");
+        }
     }
 }

@@ -13,12 +13,15 @@ public class Destroy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       
     }
 
-    private void OnTriggerEnter(Collider Player)
+    private void OnTriggerEnter(Collider Tripwire)
     {
-        Destroy(this.gameObject);
+        if (Tripwire.gameObject.tag == "Player")
+        {
+            Destroy(this.gameObject);
+        }
     }
 
 }
